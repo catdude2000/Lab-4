@@ -6,5 +6,7 @@ if (userChoice === "yellow") {
 else {
     alert('Too bad, its yellow!');
 }
-let userchoice = prompt ("How about I repeat what you type?")
-    alert(userchoice)}
+}let reptext = prompt ("What's Mickey's last name?");
+ while(reptext !== 'Mouse'); {
+   reptext = prompt('Try again!')}
+   alert(reptext)
