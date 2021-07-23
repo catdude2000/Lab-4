@@ -9,7 +9,9 @@ else; {
 }  let reptext = prompt ("What's Mickey's last name?");
     while(reptext !== 'Mouse') {
    reptext = prompt('Try again!');}
+   while(reptext === 'Mouse') {
    alert('I guess');
+break;}
 {
 let usernumber = prompt("How many dogs should I get");
 for (i=0; i < usernumber; i++) {
