@@ -1,3 +1,8 @@
+
+
+
+
+
 let house = "3845"
 function colorchoice (){let userChoice = prompt ('What color would you like for your phone? Yellow or something else?');
 if (userChoice === "yellow") {
